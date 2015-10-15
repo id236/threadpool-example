@@ -1,0 +1,20 @@
+public class Job implemnts Runnable {
+  private int jobNumber;
+  
+  Job (int jobNumber) {
+      this.jobNumber = jobNumber;
+  }
+  
+  public void run () {
+    System.out.println ("Job: " + jobnumber + "is being processed by thread : " +Thread.cuurentThread().getname());
+    
+  try {
+    Thread.sleep((int)1000));
+  } catch (InterruptionException e) {
+  }
+  System.out.println("Job: " + jobNumber+ "is ending in thread :" + Thread.currentThread().getName());
+  }
+}
+
+    
+    
